@@ -1,0 +1,161 @@
+[{
+  \"Subject\": \"http://dbpedia.org/resource/Acute_lymphoblastic_leukemia\", 
+  \"Predicate\": \"http://www.w3.org/1999/02/22-rdf-syntax-ns#type\",
+  \"Object\": \"http://dbpedia.org/ontology/Disease\"
+},
+{
+  \"Subject\": \"http://dbpedia.org/resource/Acute_lymphoblastic_leukemia\", 
+  \"Predicate\": \"http://www.w3.org/2000/01/rdf-schema#label\",
+  \"Object\": \"\\\"Acute lymphoblastic leukemia (ALL)\\\"\"
+},
+{
+  \"Subject\": \"http://dbpedia.org/resource/Acute_lymphoblastic_leukemia\", 
+  \"Predicate\": \"http://dbpedia.org/ontology/commonName\",
+  \"Object\": \"\\\"ALL\\\"\"
+},
+{
+  \"Subject\": \"http://dbpedia.org/resource/Acute_lymphoblastic_leukemia\", 
+  \"Predicate\": \"http://dbpedia.org/ontology/mostCommonPediatricCancer\",
+  \"Object\": \"\\\"true\\\"\"
+},
+{
+  \"Subject\": \"http://dbpedia.org/resource/Acute_lymphoblastic_leukemia\", 
+  \"Predicate\": \"http://dbpedia.org/ontology/strikesAdultsOfAllAges\",
+  \"Object\": \"\\\"true\\\"\"
+}, 
+{
+  \"subject\": \"http://dbpedia.org/ontology/MalignantTransformation\",
+  \"predicate\": \"http://www.w3.org/1999/02/22-rdf-syntax-ns#type\",
+  \"object\": \"http://dbpedia.org/ontology/Cell\"
+},
+{
+  \"subject\": \"http://dbpedia.org/ontology/MalignantTransformation\",
+  \"predicate\": \"http://dbpedia.org/ontology/hasUncontrolledProliferation\",
+  \"object\": \"http://dbpedia.org/ontology/AbnormallyDifferentiated\"
+},
+{
+  \"subject\": \"http://dbpedia.org/ontology/MalignantTransformation\",
+  \"predicate\": \"http://dbpedia.org/ontology/hasLongLivedHematopoieticProgenitorCell\",
+  \"object\": \"http://dbpedia.org/ontology/HighCirculatingNumberOfBlasts\"
+},
+{
+  \"subject\": \"http://dbpedia.org/ontology/MalignantTransformation\",
+  \"predicate\": \"http://dbpedia.org/ontology/hasReplacementOfNormalMarrowByMalignantCells\",
+  \"object\": \"http://dbpedia.org/ontology/LeukemicInfiltration\"
+},
+{
+  \"subject\": \"http://dbpedia.org/ontology/LeukemicInfiltration\",
+  \"predicate\": \"http://dbpedia.org/ontology/hasPossibilityFor\",
+  \"object\": \"http://dbpedia.org/ontology/CentralNervousSystem\"
+},
+{
+  \"subject\": \"http://dbpedia.org/ontology/LeukemicInfiltration\",
+  \"predicate\": \"http://dbpedia.org/ontology/hasPossibilityFor\",
+  \"object\": \"http://dbpedia.org/ontology/Testes\"
+}, "{\"symptom\": \"subject\",
+ \"predicate\": \"http://dbpedia.org/ontology/Symptom\},
+{
+	\"subject\": \"http://dbpedia.org/ontology/symptomDescription\",
+ 	\"predicate\": \"http://www.w3.org/1999/02/22-rdf-syntax-ns#Literal\",
+  	\"object\": \"Fatigue\"
+},
+{
+	\"subject\": \"http://dbpedia.org/ontology/symptomDescription\",
+ 	\"predicate\": \"http://www.w3.org/1999/02/22-rdf-syntax-ns#Literal\",
+  	\"object\": \"Pallor\"
+},
+{
+	\"subject\": \"http://dbpedia.org/ontology/symptomDescription\",
+ 	\"predicate\": \"http://www.w3.org/1999/02/22-rdf-syntax-ns#Literal\",
+  	\"object\": \"Infection\"
+},
+{
+	\"subject\": \"http://dbpedia.org/ontology/symptomDescription\",
+ 	\"predicate\": \"http://www.w3.org/1999/02/22-rdf-syntax-ns#Literal\",
+  	\"object\": \"Bone Pain\"
+},
+{
+	\"subject\": \"http://dbpedia.org/ontology/symptomDescription\",
+ 	\"predicate\": \"http://www.w3.org/1999/02/22-rdf-syntax-ns#Literal\",
+  	\"object\": \"CNS Symptoms (eg, Headache)\"
+},
+{
+	\"subject\": \"http://dbpedia.org/ontology/symptomDescription\",
+ 	\"predicate\": \"http://www.w3.org/1999/02/22-rdf-syntax-ns#Literal\",
+  	\"object\": \"Easy Bruising\"
+},
+{
+	\"subject\": \"http://dbpedia.org/ontology/symptomDescription\",
+ 	\"predicate\": \"http://www.w3.org/1999/02/22-rdf-syntax-ns#Literal\",
+  	\"object\": \"Bleeding\"
+},
+{
+  \"subject\": \"_:b1\",
+  \"predicate\": \"http://www.w3.org/1999/02/22-rdf-syntax-ns#type\",
+  \"object\": \"http://dbpedia.org/ontology/Examination\"
+},
+{
+  \"subject\": \"_:b1\",
+  \"predicate\": \"http://dbpedia.org/ontology/subject\",
+  \"object\": \"http://dbpedia.org/ontology/PeripheralBloodSmear\"
+},
+{
+  \"subject\": \"_:b1\",
+  \"predicate\": \"http://dbpedia.org/ontology/subject\",
+  \"object\": \"http://dbpedia.org/ontology/BoneMarrow\"
+},
+{
+  \"subject\": \"_:b1\",
+  \"predicate\": \"http://dbpedia.org/ontology/diagnostic\",
+  \"object\": \"true\"
+}, 
+{
+  \"subject\": \"http://dbpedia.org/ontology/Treatment\",
+  \"predicate\": \"http://dbpedia.org/ontology/includes\",
+  \"object\": \"http://dbpedia.org/ontology/CombinationChemotherapy\"
+},
+{
+  \"subject\": \"http://dbpedia.org/ontology/Treatment\",
+  \"predicate\": \"http://dbpedia.org/ontology/includes\",
+  \"object\": \"http://dbpedia.org/ontology/IntrathecalChemotherapy\"
+},
+{
+  \"subject\": \"http://dbpedia.org/ontology/Treatment\",
+  \"predicate\": \"http://dbpedia.org/ontology/includes\",
+  \"object\": \"http://dbpedia.org/ontology/SystemicChemotherapy\"
+},
+{
+  \"subject\": \"http://dbpedia.org/ontology/Treatment\",
+  \"predicate\": \"http://dbpedia.org/ontology/includes\",
+  \"object\": \"http://dbpedia.org/ontology/Corticosteroids\"
+},
+{
+  \"subject\": \"http://dbpedia.org/ontology/Treatment\",
+  \"predicate\": \"http://dbpedia.org/ontology/includes\",
+  \"object\": \"http://dbpedia.org/ontology/CerebralIrradiation\"
+},
+{
+  \"subject\": \"http://dbpedia.org/ontology/Treatment\",
+  \"predicate\": \"http://dbpedia.org/ontology/includes\",
+  \"object\": \"http://dbpedia.org/ontology/ConsolidationChemotherapy\"
+},
+{
+  \"subject\": \"http://dbpedia.org/ontology/Treatment\",
+  \"predicate\": \"http://dbpedia.org/ontology/includes\",
+  \"object\": \"http://dbpedia.org/ontology/StemCellTransplantation\"
+},
+{
+  \"subject\": \"http://dbpedia.org/ontology/Treatment\",
+  \"predicate\": \"http://dbpedia.org/ontology/includes\",
+  \"object\": \"http://dbpedia.org/ontology/MaintenanceChemotherapy\"
+},
+{
+  \"subject\": \"http://dbpedia.org/ontology/Treatment\",
+  \"predicate\": \"http://dbpedia.org/ontology/aims\",
+  \"object\": \"http://dbpedia.org/ontology/Remission\"
+},
+{
+  \"subject\": \"http://dbpedia.org/ontology/MaintenanceChemotherapy\",
+  \"predicate\": \"http://dbpedia.org/ontology/lastsFor\",
+  \"object\": \"3 years\"
+}]
